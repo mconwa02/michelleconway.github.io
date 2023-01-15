@@ -1,0 +1,6 @@
+site_name: Michelle Conway
+site_url: https://michelleconway@github.io
+nav:
+    - Home: index.md
+    - About: about.md
+theme: readthedocs
