@@ -6,7 +6,7 @@ PATH = 'content'
 
 TIMEZONE = 'Europe/London'
 
-DEFAULT_LANG = 'English'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
