@@ -1,7 +1,6 @@
 AUTHOR = 'Michelle Conway'
 SITENAME = AUTHOR
-SITEURL = ''
-SITESUBTITLE = "Lead Data Scientist - Machine Learning Engineer - Statistician "
+SITESUBTITLE = "Lead Data Scientist - Machine Learning Engineer - Statistician"
 
 PATH = 'content'
 
@@ -39,6 +38,3 @@ SOCIAL = (('github', 'https://github.com/mconwa02'),
 
 
 DEFAULT_PAGINATION = 10
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
