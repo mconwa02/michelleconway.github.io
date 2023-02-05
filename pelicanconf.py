@@ -1,6 +1,7 @@
 AUTHOR = 'Michelle Conway'
-SITENAME = 'Hello World'
+SITENAME = AUTHOR
 SITEURL = ''
+SITESUBTITLE = "Lead Data Scientist - Machine Learning Engineer - Statistician "
 
 PATH = 'content'
 
@@ -15,6 +16,17 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# Markdown
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.toc': {'title': ''},
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
+
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
@@ -24,6 +36,10 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
+
+SOCIAL = (('github', 'https://github.com/mconwa02'),
+          ('linkedin', 'https://www.linkedin.com/in/michelle-conway-40337432/'))
+
 
 DEFAULT_PAGINATION = 10
 
