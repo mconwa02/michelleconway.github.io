@@ -20,4 +20,7 @@ For mkdocs, it uses the docs folder and pushes to branch gh-deploy
 
 `mkdocs gh-deploy`
 
+I currently have an issue with when I deploy, it loads the index.html to 
+the below weblink and not markdown files in docs. Need to check the folders 
+
 https://mconwa02.github.io/michelleconway.github.io/
